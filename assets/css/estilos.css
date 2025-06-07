@@ -18,13 +18,21 @@ body {
 
 
 /* Mis trabajos */
+.bg-info {
+  --bs-bg-opacity: 1;
+  background-color: #41464b !important;
+}
 
 #Mis-trabajos .image-top {
-  height: 250px;
+  height: 350px; /* o 400px, ajusta según se vea mejor */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-top-left-radius: 0.375rem; /* si quieres bordes redondeados */
+  border-top-right-radius: 0.375rem;
+
 }
+
 
 /* Contacto */
 
