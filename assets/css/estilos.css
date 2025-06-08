@@ -53,6 +53,28 @@ button:hover + #msg-alerta {
   opacity: 1;
 }
 
+footer a {
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+footer a:hover {
+  transform: scale(1.2);
+}
+
+/* Colores personalizados por red social */
+footer a .fa-youtube:hover {
+  color: #FF0000;
+}
+
+footer a .fa-spotify:hover {
+  color: #1DB954;
+}
+
+footer a .fa-instagram:hover {
+  color: #E1306C;
+}
+
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
