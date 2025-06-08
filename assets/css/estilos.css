@@ -10,7 +10,7 @@ h1, h2, h3, .display-1, .display-3 {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.JPG");
+  background-image: url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: contain; /* <-- Cambiado de cover a contain */
   background-position: center;
