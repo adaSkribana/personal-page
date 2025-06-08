@@ -41,6 +41,18 @@ body {
   color: #373a3c;
 }
 
+#msg-alerta {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+button:focus + #msg-alerta,
+button:hover + #msg-alerta {
+  visibility: visible;
+  opacity: 1;
+}
+
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
